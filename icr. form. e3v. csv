@@ -1,0 +1,16 @@
+E2B Field,Value
+Patient Age,45
+Patient Sex,Female
+Suspect Drug,Amoxicillin 500mg TID
+Indication,URTI
+Dose Route,Oral
+Reaction, Skin rash / itching
+Onset Latency,3 days
+Seriousness,Non-serious
+Outcome,Recovering
+Causality WHO-UMC,Probable
+Causality Naranjo,6 Probable
+Expectedness,Expected
+Action Taken,Drug withdrawn + Cetirizine
+Reporter,Jignesh Savaniya - Drug Safety Associate
+Report Type,Initial Spontaneous
