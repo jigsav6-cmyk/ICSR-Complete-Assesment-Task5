@@ -1,0 +1,33 @@
+# ID: task5 - Complete ICSR Assessment
+# Author: Jignesh Savaniya - RK University
+
+print("===== TASK 5: COMPLETE ICSR REPORT =====")
+
+case = {
+    "patient": "45Y Female, 60kg",
+    "drug": "Amoxicillin 500mg TID PO for URTI",
+    "reaction": "Skin Rash, Itching - 3 days after start",
+    "dechallenge": "Positive - Recovering",
+    "rechallenge": "Not Done"
+}
+
+# 01 ADR ID
+print("\n01 ADR IDENTIFICATION:")
+print(f"Type B Hypersensitivity - {case['reaction']}")
+
+# 02 REPORTING
+print("\n02 ICSR REPORTING (E2B):")
+for k,v in case.items():
+    print(f"  {k}: {v}")
+
+# 03 CAUSALITY
+print("\n03 CAUSALITY ASSESSMENT:")
+print("  WHO-UMC: PROBABLE")
+print("  Naranjo Score: 6 = PROBABLE")
+
+# 04 CLASSIFICATION
+print("\n04 CLASSIFICATION:")
+print("  Seriousness: NON-SERIOUS (No hospitalization)")
+print("  Expectedness: EXPECTED (Listed in SmPC)")
+print("  Severity: MILD")
+print("\nFINAL ICSR: Non-serious, Expected, Probable, Type B - Routine PvPI Reporting")
